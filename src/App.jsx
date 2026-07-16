@@ -1,4 +1,4 @@
-import wedding from './assets/images/wedding.png'
+import wedding from './assets/images/w1.jpg'
 import Countdown from './components/Countdown'
 function App() {
   const img = wedding ;
@@ -14,7 +14,7 @@ function App() {
            إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ
            ﴾</blockquote>
     </section>
-    <section className="InfoCard container my-1 boldGreen rounded-4 py-3">
+    <section className="InfoCard container my-1 boldGreen rounded-4 py-1">
       <div className="row text-center">
 
         <div className="col">
@@ -36,46 +36,37 @@ function App() {
     </section>
     <Countdown />
 
-   <section className="container my-5">
-  <div className="row justify-content-center">
+   <section className="container my-2">
+      <div className="row justify-content-center">
 
-    <div className="col-lg-8 col-md-10 col-11">
+        <div className="col-lg-8 col-md-10 col-12">
 
-      <div className="row bg-white rounded-pill shadow-sm align-items-center p-3">
+          <div className="location-card bg-white shadow-sm">
 
-        <div className="col-md d-flex align-items-center mb-3 mb-md-0">
+            <div className="location-info">
+              
 
-          <div className="ms-3">
-            <i className="bi bi-geo-alt-fill fs-1 location-icon"></i>
+              <div className="location-text">
+                <small>نحن بانتظاركم في مكان مليء بالحب والفرح<i className="bi bi-geo-alt-fill location-icon"></i></small>
+              </div>
+            </div>
+
+            <a
+              href="https://maps.app.goo.gl/LFPijx6uaeHrQWHG9?g_st=atm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="location-btn text-decoration-none"
+            >
+              <span>Location</span>
+              <i className="bi bi-send-fill circle-icon"></i>
+            </a>
+
           </div>
-
-          <div className="location-text">
-            <h4 className="mb-1">موقع الحفل</h4>
-            <small>نحن بانتظاركم في مكان مليء بالحب والفرح</small>
-          </div>
-
-        </div>
-
-        <div className="col-md-auto text-center">
-
-          <a
-            href="https://maps.app.goo.gl/LFPijx6uaeHrQWHG9?g_st=atm"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="location-btn text-decoration-none d-inline-flex align-items-center"
-          >
-            <span className="ms-3">Location</span>
-            <i className="bi bi-send-fill circle-icon"></i>
-          </a>
 
         </div>
 
       </div>
-
-    </div>
-
-  </div>
-</section>
+    </section>
     </>
    );
 }

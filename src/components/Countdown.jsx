@@ -27,31 +27,31 @@ function Countdown() {
   }, []);
 
   return (
-     <section className="countdown text-center my-4 container">
-      <div className="row g-4">
+    <section className="countdown text-center my-4 container">
+      <div className="row g-2">
 
-        <div className="col-6 col-md-3">
+        <div className="col-3">
           <div className="time-box">
             <h1>{timeLeft.days}</h1>
             <p>يوم</p>
           </div>
         </div>
 
-        <div className="col-6 col-md-3">
+        <div className="col-3">
           <div className="time-box">
             <h1>{timeLeft.hours}</h1>
             <p>ساعة</p>
           </div>
         </div>
 
-        <div className="col-6 col-md-3">
+        <div className="col-3">
           <div className="time-box">
             <h1>{timeLeft.minutes}</h1>
             <p>دقيقة</p>
           </div>
         </div>
 
-        <div className="col-6 col-md-3">
+        <div className="col-3">
           <div className="time-box">
             <h1>{timeLeft.seconds}</h1>
             <p>ثانية</p>

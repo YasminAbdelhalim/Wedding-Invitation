@@ -5,12 +5,12 @@
     background-color: #F7F2EB;
 }
 .hero img{
-  width: 300px;
-  height : 300px;
+  width: 200px;
+  height : 200px;
 }
 .hero .couple{
   font-family: "Aref Ruqaa", serif;
-  font-size:clamp(2.7rem,7vw,5rem);
+  font-size:clamp(2rem,5vw,3.5rem);
   font-weight : 400 ;
 }
 .hero .infinity,
@@ -21,69 +21,91 @@ i{
   color : #667455 !important;
 }
 .VerseSection {
-  font-size:clamp(1.4rem,4vw,3rem);
+  font-size:clamp(1rem,3vw,2.5rem);
   font-weight: 600;
   line-height: 2;
 }
 .InfoCard{
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 600;
   background-color: white;
   box-shadow: 5px 5px #e0aca5;
 }
 .time-box{
-    background-color: white;
+    background: white;
     border-radius: 20px;
-    padding: 20px;
+    padding: 15px 8px;
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
 }
+
 .time-box h1{
-  font-size:clamp(2rem,5vw,3rem);
-  font-weight: 600;
-  color: #e0aca5;
+    font-size: clamp(1.2rem, 4vw, 3rem);
+    font-weight: 700;
+    color: #e0aca5;
 }
+
 .time-box p{
-    font-size:clamp(1rem,2vw,1.6rem);
-    font-weight: 600;
+    font-size: clamp(.8rem, 2.8vw, 1.5rem);
     margin: 0;
     color: #667455;
 }
-.location-text h4{
-    color: #556247;
-    font-weight: 700;
-    margin: 0;
-    font-size: 1.8rem;
+.location-card{
+    background: white;
+    border-radius: 25px;
+    padding: 12px 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.location-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.location-icon{
+    font-size: 2rem;
+    color: #d98f87;
 }
 
 .location-text small{
     color: #777;
-    font-size: 1.5rem;
-}
-
-.location-icon{
-    color: #d98f87;
+    font-size: 1rem;
 }
 
 .location-btn{
-    background-color: #667455;
+    background: #667455;
     color: white;
     border-radius: 50px;
-    padding: 12px 22px;
-    font-size:2.4rem;
+    padding: 10px 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-size: 1.1rem;
     font-weight: 600;
+
+    transition: .3s;
 }
 
 .location-btn:hover{
-    background-color: #556247;
+    background: #556247;
     color: white;
 }
 
 .circle-icon{
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    color: #667455;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
+    background: white;
+    color: #667455;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,21 +126,30 @@ i{
         padding-top:30px;
     }
 
-    .location-text h4{
-        font-size: 1.2rem;
+     .location-card{
+        flex-direction: column;
+        text-align: center;
+        border-radius: 20px;
+        padding: 20px;
     }
 
+    .location-info{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .location-icon{
+        font-size: 2rem;
+    }
+
+
     .location-text small{
-        font-size: .9rem;
+        font-size: .95rem;
     }
 
     .location-btn{
         width: 100%;
         justify-content: center;
-        margin-top: 15px;
-    }
-
-    .location-icon{
-        font-size: 1.7rem !important;
+        font-size: 1rem;
     }
 }
