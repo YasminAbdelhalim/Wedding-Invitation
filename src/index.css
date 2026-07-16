@@ -1,0 +1,124 @@
+*{
+    font-family: "Amiri", serif;
+}
+.bink{
+    background-color: #F7F2EB;
+}
+.hero img{
+  width: 300px;
+  height : 300px;
+}
+.hero .couple{
+  font-family: "Aref Ruqaa", serif;
+  font-size:clamp(2.7rem,7vw,5rem);
+  font-weight : 400 ;
+}
+.hero .infinity,
+i{
+  color : #e0aca5;
+}
+.boldGreen {
+  color : #667455 !important;
+}
+.VerseSection {
+  font-size:clamp(1.4rem,4vw,3rem);
+  font-weight: 600;
+  line-height: 2;
+}
+.InfoCard{
+  font-size: 2.6rem;
+  font-weight: 600;
+  background-color: white;
+  box-shadow: 5px 5px #e0aca5;
+}
+.time-box{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+.time-box h1{
+  font-size:clamp(2rem,5vw,3rem);
+  font-weight: 600;
+  color: #e0aca5;
+}
+.time-box p{
+    font-size:clamp(1rem,2vw,1.6rem);
+    font-weight: 600;
+    margin: 0;
+    color: #667455;
+}
+.location-text h4{
+    color: #556247;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.location-text small{
+    color: #777;
+    font-size: 1.5rem;
+}
+
+.location-icon{
+    color: #d98f87;
+}
+
+.location-btn{
+    background-color: #667455;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 22px;
+    font-size:2.4rem;
+    font-weight: 600;
+}
+
+.location-btn:hover{
+    background-color: #556247;
+    color: white;
+}
+
+.circle-icon{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: #667455;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px){
+
+    .InfoCard{
+        font-size:1.2rem;
+    }
+
+    .VerseSection blockquote{
+        width:95% !important;
+    }
+
+    .hero{
+        padding-top:30px;
+    }
+
+    .location-text h4{
+        font-size: 1.2rem;
+    }
+
+    .location-text small{
+        font-size: .9rem;
+    }
+
+    .location-btn{
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .location-icon{
+        font-size: 1.7rem !important;
+    }
+}
